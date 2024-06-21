@@ -1,0 +1,38 @@
+.hero {
+  .container {
+    display: flex;
+    margin-bottom: 66px;
+  }
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &-title {
+    font-size: 40px;
+    text-shadow: 1px 1px $blackColor;
+    margin-bottom: 40px;
+  }
+  &-desc {
+    color: $descColor;
+    font-size: 16px;
+    line-height: 160%;
+    max-width: 470px;
+    margin-bottom: 33px;
+  }
+  &-button {
+    background-color: $accentColor;
+    color: $whiteColor;
+    text-shadow: 0.5px 0.5px $whiteColor;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+  &-imgWrap {
+    transform: translateX(120px);
+    min-width: 754px;
+  }
+}

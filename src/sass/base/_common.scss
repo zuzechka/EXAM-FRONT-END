@@ -1,0 +1,30 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: 'AvertaDemo';
+  src: url('../../assets/fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AvertaDemo', sans-serif;
+  color: $blackColor;
+  background-color: $backgroundColor;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}

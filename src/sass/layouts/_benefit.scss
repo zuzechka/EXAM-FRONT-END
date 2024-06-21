@@ -1,0 +1,67 @@
+.benefit {
+  .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  &-wrap {
+    margin-right: 90px;
+  }
+  &-title {
+    font-size: 40px;
+    text-shadow: 1px 1px $blackColor;
+    margin-bottom: 30px;
+  }
+  &-desc {
+    color: $descColor;
+    font-size: 16px;
+    line-height: 160%;
+  }
+  &-list {
+    display: flex;
+    row-gap: 30px;
+    column-gap: 34px;
+    flex-wrap: wrap;
+  }
+  &-item {
+    width: 308px;
+    height: 380px;
+    background-color: $whiteColor;
+    border: 1px solid $strokeColor;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #f2f2f285;
+    padding: 40px 32px;
+    &-title {
+      font-size: 24px;
+      text-shadow: 0.3px 0.3px $blackColor;
+      text-align: center;
+      margin-bottom: 27px;
+    }
+    &-desc {
+      font-size: 16px;
+      color: $descColor;
+      text-align: center;
+    }
+  }
+  &-icon-wrap {
+    width: 121px;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0 auto 31px auto;
+  }
+  .search {
+    background-color: #f1f7ff;
+  }
+  .wallet {
+    background-color: #fff7e3;
+  }
+  .code {
+    background-color: #fff2f8;
+  }
+  .chart {
+    background-color: #deffee;
+  }
+}
